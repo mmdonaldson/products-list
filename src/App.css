@@ -1,0 +1,97 @@
+/* Create-react-app */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* custom styles */
+
+.container {
+  padding:50px 0;
+}
+
+.ProductsList {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-bottom:50px;
+}
+
+.Product {
+  display: inline-block;
+  max-width: 300px;
+  margin: 0 10px;
+  padding: 10px 0;
+  cursor:pointer;
+}
+
+button {
+  background:#222;
+  border:none;
+  padding:20px 50px;
+  font-size:25px;
+  color:#ffffff;
+  border-radius:20px;
+  text-transform:uppercase;
+  outline:none;
+  cursor:pointer;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+}
+
+button:hover {
+  background:#999;
+}
+
+.Overlay {
+  position: fixed;
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  top:0;
+  bottom:0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+}
+
+.Overlay .inner {
+  max-width: 500px;
+  margin: 0 auto;
+  color:#fff;
+  padding: 50px 0 0 0;
+}
+
+.exit {
+  font-size:35px;
+  font-weight:bold;
+  color:#fff;
+  position: absolute;
+  right:50px;
+  top:50px;
+  width:100%;
+  text-align: right;
+  cursor:pointer;
+}
